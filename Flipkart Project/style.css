@@ -125,6 +125,17 @@ button {
     align-items: center;
 }
 
+.cart:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgba(0, 0, 255, 0.638);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
 
 .right img {
     display: flex;
@@ -313,12 +324,12 @@ button {
 }
 
 .card-items img:hover {
-    scale: 1.1;
+    scale: 1.05;
     cursor: pointer;
 }
 
 .card-items-2 img:hover {
-    scale: 1.1;
+    scale: 1.05;
     cursor: pointer;
 }
 

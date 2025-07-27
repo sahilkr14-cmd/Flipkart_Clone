@@ -127,17 +127,9 @@ button {
     align-items: center;
 }
 
-.cart:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-    background-color: rgba(0, 0, 255, 0.638);
-    border-radius: 5px;
-    height: 30px;
-    width: 100px;
-    cursor: pointer;
-
+.cart:hover{
+    cursor: pointer;;
 }
-
 
 .right img {
     display: flex;
@@ -266,7 +258,7 @@ button {
     display: inline-block;
     padding: 2.5px;
     transform: rotate(225deg);
-    margin-top: 8px;
+    margin-top: 6px;
     margin-left: 10px;
 }
 

@@ -53,6 +53,7 @@ nav {
     align-items: center;
     width: 52%;
     height: 65px;
+    margin-right: 10px;
 
 }
 
@@ -102,7 +103,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
     margin-top: 23px;
     height: 20px;
     width: 90px;
@@ -113,7 +115,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 49px;
+    margin-left: 44px;
     margin-top: 23px;
     height: 20px;
     width: 90px;
@@ -141,18 +143,10 @@ button {
     display: flex;
     justify-content: center;
     height: 25px;
+    padding-right: 10px;
 }
 
-.right:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-    background-color: rgba(0, 0, 255, 0.638);
-    border-radius: 5px;
-    height: 30px;
-    width: 100px;
-    cursor: pointer;
 
-}
 
 .store {
     display: flex;
@@ -224,13 +218,56 @@ button {
 }
 
 .arrow-down {
+    display: inline-block;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    padding: 2.5px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
+
+.container-3 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-size: 17px;
+
+}
+
+.container-3:hover {
+    background-color: rgba(0, 0, 255, 0.638);
+    border-radius: 5px;
+    height: 40px;
+    width: 115px;
+    cursor: pointer;
+
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+}
+
+.login:hover .arrow-down {
     border: solid black;
     border-width: 0px 2px 2px 0;
     display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    margin-bottom: 4px;
+    padding: 2.5px;
+    transform: rotate(225deg);
+    margin-top: 8px;
+    margin-left: 10px;
 }
 
 .dot {
@@ -238,7 +275,7 @@ button {
     justify-content: center;
     align-items: center;
     height: 67px;
-    width: 84px;
+    width: 75px;
 }
 
 .dot img {
